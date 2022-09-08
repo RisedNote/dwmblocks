@@ -5,9 +5,9 @@ static const Block blocks[] = {
 
 	/*{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},*/
 
-	{"", "~/.config/dwmblocks/scripts/battery",				5,		0},
+	{"", "~/.config/dwmblocks/scripts/volume",				5,		0},
 
-	{"", "date '+^b#9499FF^^c#282929^ %I:%M%p'",				5,		0},
+	{"", "~/.config/dwmblocks/scripts/time-date",     5,		0},
 
 };
 
