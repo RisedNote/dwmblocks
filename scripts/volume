@@ -1,0 +1,4 @@
+#!/bin/sh
+vol_per=$(pamixer --get-volume-human)
+
+echo "^b#DD7BEF^^c#282929^ 奄 $vol_per "
