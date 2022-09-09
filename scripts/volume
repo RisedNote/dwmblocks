@@ -2,3 +2,12 @@
 vol_per=$(pamixer --get-volume-human)
 
 echo " 奄 $vol_per "
+
+#case $BUTTON in
+case $BLOCK_BUTTON in
+  1) pamixer --set-volume 0 ;;
+  2) pamixer --set-volume 100 ;;
+  3) pavucontrol ;;
+  4) pamixer -i 5 ;;
+  5) pamixer -d 5 ;;
+esac
